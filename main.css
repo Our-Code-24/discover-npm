@@ -1,0 +1,18 @@
+header {
+    background-color: rgb(24, 24, 24);
+    display: flex;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#title {
+    padding: 10px;
+}
+
+.infodiv {
+    background-color: rgb(28, 28, 28);
+    padding: auto;
+}

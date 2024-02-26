@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "all-the-package-names": "^2.0.1348",
+    "vercelsocket": "^1.4.0"
+  },
+  "name": "discover-npm",
+  "description": "Discover random npm packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
