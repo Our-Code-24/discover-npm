@@ -52,7 +52,7 @@ require("vercelsocket")(app).then((io) => {
         }
 
         const end = `
-        <button onclick="location.reload()">Minecraft</button>
+        <button onclick="location.reload()">New Package</button>
         </main>
         </body>
         </html>
@@ -66,7 +66,9 @@ require("vercelsocket")(app).then((io) => {
         res.sendFile(__dirname + "/main.css")
     })
 
-    app.get()
+    app.get("/npm.png", (req, res) => {
+        res.sendFile(__dirname + "/npm.png")
+    })
 
     app.listen(3000)
 })

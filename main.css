@@ -16,3 +16,23 @@ body {
     background-color: rgb(28, 28, 28);
     padding: auto;
 }
+
+#npm-logo {
+    padding: 20px;
+}
+
+#buttonslist {
+    button {
+        background-color: orange;
+        display: block;
+        border: none;
+        padding: 14px 28px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
